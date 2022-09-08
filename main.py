@@ -49,9 +49,11 @@ def get_maximum_score(filtered_comb, subject_grade, num_ects_per_block=25):
 
 
 if __name__ == '__main__':
+    # {<subject_name> : <ects_weight>}
     subject_weight = {'clouds': 5, 'malis': 5, 'dbsys': 5, 'stats': 2.5, 'quantis': 2.5, 'optim': 2.5,
                       'aml': 2.5, 'improc': 2.5, 'semproj': 10, 'asi': 5, 'deep': 2.5, 'malcom': 5}
     # insert below your eurecom grades(20esimi)
+    # {<subject_name> : <grade>}
     subject_grade = {'clouds': 0, 'malis': 0, 'dbsys': 0, 'stats': 0, 'quantis': 0, 'optim': 0,
                      'aml': 0, 'improc': 0, 'semproj': 0, 'asi': 0, 'deep': 0, 'malcom': 0}
     credits_per_block = 25
